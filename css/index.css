@@ -1,0 +1,74 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+h1{
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    color: #990000;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.role h2{
+    margin-right: 20px;
+}
+.role{
+ margin-top: 40px;
+}
+.role1{
+    display: flex; 
+    margin-bottom: 40px; 
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.role1 img,.role2 img{
+    margin-right: 25px;
+    width: 200px;
+    height: 200px;
+}
+.role2{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+/* 角色確認按鍵 */
+.roleBtn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+  color: white;
+  border: 3px solid black;
+  font-size: 30px;
+}
+
+
+
+
+
+/* 選到 哪隻動物的外框線 */
+/* 主角 */
+.choosebox1{
+    border: 5px solid red;
+}
+/* 配角 */
+.choosebox2{
+    border: 5px solid blue;
+}

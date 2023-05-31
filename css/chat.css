@@ -1,0 +1,204 @@
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  background-color: antiquewhite;
+}
+
+
+/* 最上方的喂!今天中午要吃什麼的容器 */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 喂!今天中午要吃什麼的標題 */
+.header h2 {
+  /* border:1px solid rebeccapurple; */
+  margin-top: 50px;
+  color: #990000;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+
+/* logo */
+.header img {
+  /* border: 1px solid rebeccapurple; */
+  width:120px;
+  height: 120px;
+  margin-top: 13px;
+}
+
+.thechatbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 每一格對話框的容器 */
+.container {
+  border-radius: 5px;
+  padding: 3px;
+  margin: 10px 0;
+  width: 600px;
+}
+
+
+/* 每一格對話框的p段落 */
+.container p {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+
+/* 每一格對話框的圖片 */
+.container img {
+  /* width: 100%; */
+  float: left;
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+/* 豬的對話框（左邊） */
+.onebk {
+  background-color: #BFBFBF;
+  border: 2px solid black;
+  height: 120px;
+}
+
+
+/* 豬的頭像 */
+.onebk img {
+  width: 350px;
+  height: 100px;
+ margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 豬對話框的文字 */
+.onebk p {
+  /* border: 1px solid rebeccapurple; */
+  margin-top: 50px;
+}
+
+
+/* 豬對話框的已讀區（右邊） */
+.time-right {
+  /* border: 1px solid royalblue; */
+  float: right;
+  color: white;
+  font-weight: bolder;
+  margin-top: -5px;
+  font-size: 10px;
+}
+
+
+/* 比熊的對話框（右邊） */
+.darker {
+  height: 120px;
+  background-color: #969696;
+  border: 2px solid black;
+}
+
+
+/* 比熊的頭像 */
+.darker img {
+  width: 350px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+
+/* 比熊對話框的文字 */
+.darker p {
+  /* border: 1px solid orange; */
+  margin-top: 50px;
+}
+
+
+/* 比熊對話框的已讀區（左邊） */
+.time-left {
+  float: left;
+  color: white;
+  font-weight: bolder;
+  margin-top: -5px;
+  font-size: 10px;
+}
+.thebtnbox{
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+/* 最下方點我一下的按鈕 */
+.start {
+  width: 150px;
+  line-height: 50px;
+  background-color: red;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: white;
+  border: 3px solid black;
+  margin-right: 15px;
+}
+
+
+/* 最下方滑動按鈕的樣式 */
+.start:hover {
+  background-color: green;
+}
+.start a {
+  text-decoration: none;
+  color: white;
+}
+/* 最下方的返回上一頁按鍵 */
+.back{
+  width: 150px;
+  line-height: 50px;
+  background-color: rgb(27, 26, 26);
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  border-radius: 25px;
+  color: white;
+  border: 3px solid black;
+  margin-left: 15px;
+  
+}
+.back a{
+  color:white;
+  text-decoration: none;
+}
+
+  /* 設計讓比熊的頭像靠右 */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+
+
+
+
+
+
+
